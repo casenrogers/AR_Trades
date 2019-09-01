@@ -11,6 +11,7 @@ public class PortalPositioner : MonoBehaviour
     [SerializeField] protected Transform rootTrans;
     [SerializeField] protected Transform cameraTransform;
     [SerializeField] protected GameObject assistCanvas;
+    [SerializeField] protected PortalTrigger trigger;
 
     [SerializeField] protected ARRaycastManager raycastManager;
     [SerializeField] protected TrackableType typeMask;
@@ -22,6 +23,7 @@ public class PortalPositioner : MonoBehaviour
     protected virtual void Start()
     {
         rootTrans = transform;
+        trigger.StartShaderValues();
         HidePortal();
     }
 
