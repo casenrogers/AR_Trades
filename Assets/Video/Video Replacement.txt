@@ -1,0 +1,6 @@
+*****************************************
+To replace the video playing for the experience, simply add it to the Video folder.
+Then replace the Video Clip on the Video Sphere object.
+*****************************************
+
+Purpose: Keep the Video folder from being removed, also it helps instruct where to replace the video at.
